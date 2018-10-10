@@ -1,0 +1,896 @@
+footer.py-5.bg-dark {
+    background: #101010 !important;
+}
+
+body {
+    padding-top: 0px !important;
+}
+
+.navbar-default {
+    transition: 500ms ease;
+    background: transparent !important;
+}
+
+.navbar-default.scrolled {
+    background: white !important;
+}
+
+a.navbar-brand span.scrolled {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    color: black !important;
+}
+
+a.nav-link.scrolled {
+    color: black !important;
+}
+
+.col-sm-4.footer-poweredby {
+    color: #d6d6d6;
+}
+
+.col-sm-4.footer-poweredby span {
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 30%, #000 50%, rgba(0, 0, 0, .6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+}
+
+@-webkit-keyframes shine {
+    from {
+        -webkit-mask-position: 150%;
+    }
+    to {
+        -webkit-mask-position: -50%;
+    }
+}
+
+.footer-img img {
+    width: auto;
+    height: 45px;
+}
+
+.col-sm-4 {
+    text-align: center;
+}
+
+.footer-powe#e49d00by {
+    color: #909090;
+}
+
+.footer-powe#e49d00by span {
+    color: red;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-facebook:hover {
+    color: #3B5998 !important;
+}
+
+.fa-twitter {
+    color: #55ACEE;
+}
+
+.fa-twitter:hover {
+    color: #55ACEE !important;
+}
+
+.fa-instagram {
+    color: #bf3780;
+}
+
+.fa-instagram:hover {
+    color: #bf3780;
+}
+
+.fa {
+    font-size: 25px !important;
+    margin: 8px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+a.navbar-brand:hover {
+    cursor: pointer;
+}
+
+a.navbar-brand img {
+    width: auto;
+    height: 45px;
+}
+
+a.nav-link {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: gray !important;
+}
+
+a.navbar-brand span {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    color: white !important;
+}
+
+.navbar-default {
+    background-color: transparent !important;
+}
+
+a.nav-link {
+    color: white !important;
+    /* font-weight: bold; */
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a.navbar-brand span {
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 30%, #000 50%, rgba(0, 0, 0, .6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+}
+
+@-webkit-keyframes shine {
+    from {
+        -webkit-mask-position: 150%;
+    }
+    to {
+        -webkit-mask-position: -50%;
+    }
+}
+
+a.nav-link:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 1em;
+    width: 100%;
+    margin-top: 10px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 2px;
+    -moz-background-size: 100% 2px;
+    background-size: 100% 2px;
+    background-image: -webkit-linear-gradient(left, red 0%, #e49d00 100%), -webkit-linear-gradient(left, red 0%, #e49d00 100%);
+    background-image: -moz-linear-gradient(left, red 0%, #e49d00 100%), -moz-linear-gradient(left, red 0%, #e49d00 100%);
+    background-image: -o-linear-gradient(left, red 0%, #e49d00 100%), -o-linear-gradient(left, red 0%, #e49d00 100%);
+    background-image: linear-gradient(to right, red 0%, #e49d00 100%), linear-gradient(to right, red 0%, #e49d00 100%);
+}
+
+a.nav-link:hover:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.jumbotron {
+    background-color: #eab02d !important;
+    color: white !important;
+}
+
+.productpage-cover {
+    margin-bottom: 100px;
+}
+
+.productpage-cover {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    background-image: url(/images/ecommerce-cover.jpeg);
+    background-attachment: fixed;
+}
+
+.productpage-title {
+    text-align: center;
+    padding: 100px 30px 15px;
+    font-size: 65px;
+    color: white;
+}
+
+.productpage-subtitle {
+    text-align: center;
+    color: #b9b9b9;
+    font-size: 36px;
+}
+
+.button-container {
+    text-align: center;
+    padding: 60px;
+}
+
+button.shop-now {
+    background: none;
+    border: none;
+    background: #e49d00;
+    color: white;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 15px;
+    outline: none !important;
+}
+
+button.shop-now:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.ppcover-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.productpage-intro {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.productpage-introtitle {
+    text-align: center;
+    padding: 20px;
+    color: gray;
+    font-size: 20px;
+}
+
+.productpage-subintro {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+span.new-products {
+    color: #e49d00;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+}
+
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange
+    }
+}
+
+.featured-products {
+    font-size: 30px;
+    padding: 15px 0px;
+}
+
+.col-sm-4.featured-products {
+    border: 1px solid #bbb8b8;
+    border-radius: 5px;
+}
+
+.fp-label {
+    font-size: 15px;
+    text-align: right;
+    background: #543700;
+    color: white;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+}
+
+.row.featured-product {
+    padding: 15px 0px 15px;
+}
+
+.cover-home {
+    background-image: url(/images/perfume-cover.jpg);
+    height: -webkit-fill-available;
+    margin: 20px 0px 20px;
+}
+
+.coverhome-label {
+    text-align: right;
+    color: white;
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    padding: 20px;
+    font-size: 34px;
+}
+
+.cover-home {
+    background-image: url(/images/perfume-cover.jpg);
+    height: -webkit-fill-available;
+    margin: 20px 0px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.cover-video video {
+    width: 100%;
+    height: auto;
+}
+
+.aboutus-cover {
+    background-image: url(/images/our-company.jpg);
+    height: -webkit-fill-available;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.aboutuscover-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 200px;
+    height: -webkit-fill-available;
+    width: 100%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.mission {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    padding: 30px 0px 30px;
+    color: gray;
+}
+
+.vision {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    padding: 30px 0px 30px;
+    color: gray;
+}
+
+p.company-mission {
+    font-size: 40px;
+    color: #252525;
+}
+
+p.company-vision {
+    font-size: 40px;
+    color: #252525;
+}
+
+a.black-text.d-flex.justify-content-end h5 {
+    color: #ffc801 !important;
+}
+
+a.black-text.d-flex.justify-content-end:hover {
+    color: #ad7001 !important;
+}
+
+.contact-form {
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+
+.contact-form .form-control {
+    border-radius: 1rem;
+}
+
+.contact-image {
+    text-align: center;
+}
+
+.contact-image img {
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+}
+
+.contact-form form {
+    padding: 10%;
+}
+
+.contact-form form .row {
+    margin-bottom: -7%;
+}
+
+.contact-form h3 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #5a5a5a;
+}
+
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #e4b301;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #e4b301;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form .btnContact:hover {
+    background-color: #a07d00 !important;
+}
+
+.or {
+    text-align: center;
+    font-weight: bold;
+    color: #e4b301;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.phoneno {
+    font-size: 25px;
+}
+
+.email {
+    font-size: 25px;
+}
+
+.address {
+    font-size: 25px;
+}
+
+i.fa.fa-envelope {
+    font-size: 20px !important;
+}
+
+.row.product-list {
+    padding: 15px 0px 15px;
+}
+
+.locationmap {
+    text-align: center;
+    border: 1px solid #3f3f3f;
+    padding: 15px;
+}
+
+p.card-text.package {
+    font-size: 14px;
+}
+
+h4.card-title.package {
+    color: #c38803;
+}
+
+header.jumbotron.my-4 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.card-deck {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.homecover {
+    background: url(/images/home-cover.jpg);
+    height: -webkit-fill-available;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.cover-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    height: -webkit-fill-available;
+}
+
+.padding {
+    padding: 100px;
+}
+
+h4.makeiteasy {
+    color: white;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+span.orajen-txt {
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+    padding: .2em 0;
+}
+
+span.ecommerce-txt {
+    color: white;
+    font-size: 50px;
+    padding: .2em 0;
+}
+
+span.cover-desc {
+    color: white;
+}
+
+h2.pnr {
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.slick-track:before,
+.slick-track:after {
+    display: table;
+    content: '';
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+    float: right;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.gallery {
+    padding: 2.5em 0;
+}
+
+.section-video {
+    background: url(/images/sv-cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.sv-overlay {
+    background: rgba(0, 0, 0, 0.6)
+}
+
+h2.pnr {
+    font-weight: 100;
+}
+
+.col-sm.sv1 {
+    text-align: center;
+    color: white;
+    padding: 120px 0;
+}
+
+h6.sv-predesc {
+    font-weight: 100;
+    /* font-size: 24px; */
+}
+
+p.sv-postdesc {
+    font-size: 14px;
+    padding: 0px 40px;
+}
+
+h2.sv-maindesc {
+    padding: 10px 0px;
+    letter-spacing: 2px;
+}
+
+.col-sm.sv2 {
+    padding: 120px 0;
+    text-align: center;
+}
+
+video#myVideo {
+    width: 100%;
+    height: auto;
+}
+
+.col-sm.sv2 {
+    padding: 60px 0px 120px;
+    text-align: center;
+}
+
+span.fp-title {
+    font-weight: 200;
+}
+
+.package1 {
+    background: url(/images/perfume-cover.jpg);
+    height: -webkit-fill-available;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.package1-overlay {
+    height: -webkit-fill-available;
+    opacity: 0;
+    transition: 500ms ease;
+}
+
+.package1-overlay:hover {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+    transition: 800ms ease;
+    opacity: 1;
+}
+
+.col-sm.pckg1 {
+    text-align: center;
+}
+
+.col-sm.pckg1 {
+    padding: 100px 0px 0px;
+}
+
+span.package1-hover {
+    background: #e4b300;
+    padding: 12px 20px;
+    /* border-radius: 8px; */
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.package-desc {
+    padding: 60px 20px 0px;
+}
+
+h5.packge1-inc {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.card-deck.products {
+    padding: 10px 0px;
+}
+
+.product-det {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    text-align: center;
+    padding: 30px 10px 0px;
+    color: transparent;
+}
+
+.product-det:hover {
+    color: #3f3f3f;
+    transition: 500ms ease;
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 200, 0, 0.47));
+}
+
+span.product-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span.product-name:hover {
+    color: #e49400;
+    transition: 500ms ease;
+}
+
+.pd-desc {
+    font-size: 13px;
+}
+
+.p-md {
+    width: 120px;
+    margin: auto;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.p-md:hover {
+    color: white;
+    background: #ffc800;
+    cursor: pointer;
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.package2 {
+    background: url(/images/man-cover.jpg);
+    height: -webkit-fill-available;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.package2-overlay {
+    height: -webkit-fill-available;
+    opacity: 0;
+    transition: 500ms ease;
+}
+
+.package2-overlay:hover {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+    transition: 800ms ease;
+    opacity: 1;
+}
+
+.col-sm.pckg2 {
+    text-align: center;
+}
+
+.col-sm.pckg2 {
+    padding: 100px 0px 0px;
+}
+
+span.package2-hover {
+    background: #e4b300;
+    padding: 12px 20px;
+    /* border-radius: 8px; */
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+h5.packge2-inc {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.text-center.right {
+    text-align: right !important;
+}
+
+h2.h2-responsive.product-name {
+    text-align: center;
+}
+
+h2.h2-responsive.product-name strong {
+    color: #525252;
+}
+
+h5.mb-0 {
+    color: #FF9800;
+}
+
+a.product-a:hover {
+    color: #ff9800;
+    text-decoration: underline;
+}
+
+span.green-text {
+    color: red;
+}
+
+.col-sm-6.col-lg-3 {
+    padding: 10px 0px;
+}
